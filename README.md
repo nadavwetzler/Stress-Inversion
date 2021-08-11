@@ -18,3 +18,12 @@ Stress is inverted for each friction coefficient that ranges 0.1 to 0.8, weighte
 Busetti, S., Jiao, W., Reches, Z., 2014. Geomechanics of hydraulic fracturing microseismicity: Part 1. Shear, hybrid, and tensile events. Am. Assoc. Pet. Geol. Bull. 98, 2439–2457. https://doi.org/10.1306/05141413123
 
 Reches, Z., Baer, G., Hatzor, Y., 1992. Constraints on the strength of the upper crust from stress inversion of fault slip data. J. Geophys. Res. 97, 12481. https://doi.org/10.1029/90JB02258
+
+# Run
+Download the files
+
+Add the contant of the folder to your Matalb path
+
+Run run_Stress_inv.m file and you should soon see the results
+
+Depending on the resolution of your screen, the lagend may overlap the bottom of subplot. you can shift it down
