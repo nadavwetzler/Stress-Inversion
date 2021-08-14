@@ -1,5 +1,7 @@
 # Stress-Inversion
 A Matlab code to calculate stress field from FMS data over a range of friction coefficients 
+![Fig0](https://user-images.githubusercontent.com/88764899/129441966-8a41fa7d-f69c-413d-b8b7-a9394dfd4892.png)
+
 
 # Features
 The code calculates the principal axis of the stress state from focal mechannism information
