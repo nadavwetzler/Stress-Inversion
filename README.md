@@ -31,5 +31,5 @@ Run run_Stress_inv.m file and you should soon see the results
 Depending on the resolution of your screen, the lagend may overlap the bottom of subplot. you can shift it down
 
 #	Acknowledgements 
-Dr Seth Busetti, Aramco Services, wrote the generic Matlab code for the stress-inversion.
+Dr Seth Busetti, Aramco Services, wrote the generic Matlab code for the stress-inversion (Stress_inv.m).
 
