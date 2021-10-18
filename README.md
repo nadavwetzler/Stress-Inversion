@@ -30,6 +30,31 @@ Run run_Stress_inv.m file and you should soon see the results
 
 Depending on the resolution of your screen, the lagend may overlap the bottom of subplot. you can shift it down
 
+# Input
+The code loads an earthquake dataset composed of 18 columns in a matrix format (all numeric):
+1 - event id,
+2 - year,
+3 - month,
+4 - day,
+5 - hour,
+6 - minuet,
+7 - seconds,
+8 - magitude,
+9 - latitude,
+10 - longitude,
+11 - depth,
+12 - strike1,
+13 - dip1,
+14 - rake1,
+15 - strike2,
+16 - dip2,
+17 - rake2,
+18 - cluster id,
+
+if you dont knnow the auxilary use:
+https://github.com/g2e/seizmo/blob/master/cmt/auxplane.m
+to calculate: strike2, dip2, rake2
+
 #	Acknowledgements 
 Dr Seth Busetti, Aramco Services, wrote the generic Matlab code for the stress-inversion (Stress_inv.m).
 
