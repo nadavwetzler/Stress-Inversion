@@ -4,9 +4,10 @@ A Matlab code to calculate stress field from FMS data over a range of friction c
 
 
 # Features
-The code calculates the principal axis of the stress state from focal mechannism information
+The code calculates the principal axis of the stress state from focal mechannism information.
 Use FMS data at /data folder as a tamplate for your one dataset
 
+One of the chalanges is to identify the fault plane from the two nodal planes of the double couple solution. We select the planes that best fit the general stress state of the population, constrained by the friction coheficient to provide a mechanical strategy to exclude the auxilary planes.
 To identify the fault plane from the two nodal planes, determination of the faults frictional strength and calculate the local stress field we used stress-inversion approach developed to calculate the stress state associated with a set of focal-mechanisms (Reches et al., 1992; Busetti and Reches, 2014). This approach was customized into MATLAB environment to calculate the orientations and relative magnitudes of the three principal stress axes (3D stress tensor) for a group of FMSs under three assumptions: 
 1) All the earthquakes in the group occurred under the same stress state. 
 2) Slip along a fault occurs in the direction of maximum resolved shear stress 
